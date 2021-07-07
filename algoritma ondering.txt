@@ -1,0 +1,13 @@
+problem Vmax 64+63=127=2^7
+		Emax 64*63=2^12
+hungarian algorithm
+	utk matching kalau sama ukuran piece dan location O(log^2(V))
+	selain itu gunakan doubling technique O(m*r+r^2 log r) 
+	Thorup's method utk mengurangi kerumitan jadi O(m*s+s^2 log log r)
+	shortest path algorithm
+		bellman ford O(V^2*E) =2^26
+		dijkstra/fibonacci heap O(V^2*logV+V*E)=2^14*3+2^19=2^19 ini lebih baik karena edgenya banyak
+																mepet time limit jika computing 10^6
+hall's marriage theorem
+Hopcroft–Karp algorithm
+maximum bipartite matching

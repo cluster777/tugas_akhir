@@ -1,0 +1,18 @@
+ada graph bipartite dari x ke y
+setiap ada node x yang terhubung dengan y
+setiap node yang terhubung memiliki ukuran maksimal 1 flow dan punya cost
+misal ukuran flow f(x,y) dan cost c(x,y)
+maka biaya f(x,y)*c(x,y)
+f(x,y) element real
+
+ada dummy arc dari source ke x dan y ke sink c(source,x)=c(y,sink)=0
+tidak ada aliran dari y ke x
+ceiling quantization?
+
+pseudoflow flux tidak negatif
+flow semua yang masuk yang keluar
+flux integral => berupa int
+f(x,y)=0 idle
+f(x,y)=1 saturated
+
+b(x,y)+c(x,y)=0
