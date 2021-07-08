@@ -17,9 +17,9 @@ class BipGraph
 	// vertex 'u'. The value of u ranges from 1 to m.
 	// 0 is used for dummy vertex
 	list<int> *adj;
+
 	// These are basically pointers to arrays needed
-	// for hopcroftKarp()
-	int *pairU, *pairV, *dist, *cost;
+	int *pairU, *pairV, *dist, *cost, *forest;
 
 public:
 	BipGraph(int m, int n); // Constructor
@@ -43,6 +43,9 @@ public:
 	
 	// Returns minimum cost matching using FlowAssign
 	int flowAssign();
+	
+	// Create Forest and return true if found augmenting path 
+	bool dijkstra();
 	
 	// Return sum of cost in matching
 	int sum();
@@ -178,7 +181,9 @@ bool BipGraph::dfs(int u)
 	}
 	return true;
 }
-
+bool BipGraph::dijkstra(){
+	
+}
 int BipGraph::hungarianMethod(){
 	/// pairU[u] stores pair of u in matching where u
 	// is a vertex on left side of Bipartite Graph.
@@ -188,6 +193,11 @@ int BipGraph::hungarianMethod(){
 	// pairV[v] stores pair of v in matching. If v
 	// doesn't have any pair, then pairU[v] is NIL
 	pairV = new int[n+1];
+	
+	//for each left node do dijkstra
+	for( int i=1;i<=m;i++){
+		dijkstra()
+	}
 	
 	return sum();	
 }

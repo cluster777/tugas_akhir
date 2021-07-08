@@ -1,0 +1,11 @@
+push relabel
+init
+source  height=|V|
+vertex height=0 flow=0
+sink height=0
+
+push 
+	push aliran ke semua vertex secara maksimum
+
+relabel
+	menaikkan vertex lebih tinggi 1 dari source terendah
