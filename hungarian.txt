@@ -1,0 +1,30 @@
+hungarian:
+penjumlahan atau pengurangan pada kolom atau pada baris(kolom atau baris disini adalah semua edge yang terhubung dengan sebuah vertex) tidak akan merubah posisi nilai optimum 
+hungarian slow
+1a kurangin masing2 kolom dengan nilai terkecil
+1b kurangin masing2 baris dengan nilai terkecil
+2 match sebanyak2nya dengan 0 weighted edge ( kalau udah max kelar) bisa pake hopcroft carp
+3 lakukan perubahan nilai: delta=min(cij), i!eV n j!eV
+	|cij - delta , i!eV n j!eV
+cij	|cij, ieV v jeV
+	|cij +delta,  ieV n jeV
+
+glosary
+cij (cost pada kolom i baris j)
+ieV ( i pada matching(lihat step 2))
+j!eV (j pada matching(lihat step 2))
+n (and)
+v (or)
+
+hungarian fast
+1 loop sebanyak s(dimensi terkecil(left atau right))
+2 	membuat shortest path forest dengan root dari semua maiden
+3	kalau matching bertambah 
+4		raise price?
+5	 	augment path
+6	else done;
+
+König-Egeváry Theorem
+The König-Egeváry theorem, sometimes simply called König's theorem, asserts that the matching number (i.e., size of a maximum independent edge set) is equal to the vertex cover number (i.e., size of a minimum vertex cover) for a bipartite graph.
+
+More generally, the theorem states that the maximum size of a partial matching in a relation equals the minimum size of a separating set.
