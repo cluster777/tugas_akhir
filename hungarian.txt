@@ -9,6 +9,30 @@ hungarian slow
 cij	|cij, ieV v jeV
 	|cij +delta,  ieV n jeV
 
+pseudocode
+	for collumn in tmp_cost_matrix:
+		find min value;
+		if(! found 0):
+			subtract each value with min value;
+
+	for row in tmp_cost_matrix:
+		find min value;
+		if(! found 0):
+			subtract each value with min value
+	matching=0
+	minimum_dimension=min (|row|,|collumn|)
+	while(matching< minimum_dimension and i<|collumn|):
+		create_graph;
+		matching=hc_carp;
+		if(matching==minimum_dimension)return matching_sum()
+
+		delta= find min in tmp_cost_matrix where value not in matching;
+		for each value in tmp_cost_matrix:
+			if cost not in matching cost=cost-delta
+			if cost in matching cost=cost+delta
+	
+	return matching_sum()
+
 glosary
 cij (cost pada kolom i baris j)
 ieV ( i pada matching(lihat step 2))

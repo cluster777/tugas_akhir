@@ -37,7 +37,7 @@ public:
 	
 	// Returns minimum cost matching using hungarian method
 	int hungarianMethod();
-	
+	int hungarianMethod_v4();
 	// Returns minimum cost matching using Auction
 	int auction();
 	
@@ -201,7 +201,88 @@ int BipGraph::hungarianMethod(){
 	
 	return sum();	
 }
-
+int BipGraph::hungarianMethod_v4(){
+	//make each collumn have 0 value by sustracting with the lowest value in it
+	for(i=0;i<m;i++){
+		//find min pada
+		int minval=INF; 
+		for(j=0;j<n;j++){
+			if(minval>tmpcost[j*m+i])minval=tmpcost[j*m+i];
+			
+			//found minimum as 0 the most minimum value
+			if(minval==0){				
+				break;
+			}
+		}
+		if(min>0){
+			//do substract
+			for(j=0;j<n;j++){
+				tmpcost[j*m+i]-=minval
+			}
+		}
+	
+	}
+	
+	//do the same for the rows
+	for(i=0;i<n;i++){
+		//find min pada
+		int minval=INF; 
+		for(j=0;j<m;j++){
+			if(minval>tmpcost[i*m+j])minval=tmpcost[i*m+j];
+			
+			//found minimum as 0 the most minimum value
+			if(minval==0){				
+				break;
+			}
+		}
+		if(min>0){
+			//do substract
+			for(j=0;j<n;j++){
+				tmpcost[j*m+i]-=minval
+			}
+		}
+	
+	}
+	adj = new list<int>[m+1];
+	int matching=0 // init matching 0
+	int minimum_dimension= ((m<n)? (m):(n)) // find minimum dimension duh
+	while(matching< minimum_dimension and i<minimum_dimension){
+	
+		//make new hc-carp init
+		adj.clear()
+		for(i=0;i<n;i++){
+			for(j=0;j<m;j++){
+				if(tmpcost[j*m+i]==0) adj[u].push_back(v);
+			}
+		}
+		matching=hopcroftKarp();
+		if(matching==minimum_dimension)return sum()
+		
+		//find min in tmp_cost_matrix where value not in matching
+		int delta=INF;
+		for(i=0;i<n;i++){
+			for(j=0;j<m;j++){
+				if(delta>tmpcost[j*m+i] && pairU[i]==NIL && pairV[j]==NIL) delta=tmpcost[j*m+i];
+			}
+		}
+		 
+		/*
+			for each value in tmp_cost_matrix:
+				if cost not in matching cost=cost-delta
+				if cost in matching cost=cost+delta
+		*/
+		for(i=0;i<n;i++){
+			for(j=0;j<m;j++){
+				//if cost not in matching cost=cost-delta
+				if(pairU[i]==NIL && pairV[j]==NIL) tmpcost[j*m+i]-=delta;
+				
+				// if cost in matching cost=cost+delta
+				else if(pairU[i]==NIL && pairV[j]==NIL)  tmpcost[j*m+i]+=delta;
+			}
+		}
+	}
+	return sum()
+}
 int BipGraph::auction(){
 	/// pairU[u] stores pair of u in matching where u
 	// is a vertex on left side of Bipartite Graph.
@@ -243,15 +324,18 @@ BipGraph::BipGraph(int m, int n)
 {
 	this->m = m;
 	this->n = n;
-	adj = new list<int>[m+1];
 	cost = new int[(m+1)*(n+1)];
+	tmpcost = new int[(m+1)*(n+1)]
 }
 
 // To add edge from u to v and v to u
 void BipGraph::addEdge(int u, int v, int c)
 {
-	adj[u].push_back(v); // Add u to v’s list.
+	//ini buat hc-carp
+	// adj[u].push_back(v); // Add u to v’s list.
 	cost[u*m+v]=c;
+	// m collumn n baris
+	tmpcost[u*m+v]=c;
 }
 
 // Driver Program
