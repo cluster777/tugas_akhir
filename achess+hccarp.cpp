@@ -11,7 +11,7 @@ class BipGraph
 {
 	// m and n are number of vertices on left
 	// and right sides of Bipartite Graph
-	int m, n;
+	int m, n,matching;
 
 	// adj[u] stores adjacents of left side
 	// vertex 'u'. The value of u ranges from 1 to m.
@@ -41,16 +41,19 @@ public:
 	// Returns minimum cost matching using Auction
 	int auction();
 	void print_tmpcost_dbg();
+	void print_cost_dbg();
 	// Returns minimum cost matching using FlowAssign
 	int flowAssign();
-	
+	int get_last_matching();
 	// Create Forest and return true if found augmenting path 
 	bool dijkstra();
 	
 	// Return sum of cost in matching
 	int sum();
 };
-
+int BipGraph::get_last_matching(){
+	return matching;
+}
 // Returns size of maximum matching
 int BipGraph::hopcroftKarp()
 {
@@ -178,9 +181,17 @@ void BipGraph::print_tmpcost_dbg(){
 	}
 	printf("\n");
 }
+void BipGraph::print_cost_dbg(){
+	for(int i=0;i<m*n;i++){
+		if(i%n==0 && i>0)printf("\n");
+		printf("%d ",cost[i]);
+		
+	}
+	printf("\n");
+}
 int BipGraph::hungarianMethod_v4(){
 	//make each collumn have 0 value by sustracting with the lowest value in it
-
+	
 	for(int i=0;i<m;i++){
 		//find min pada
 		int minval=INF;
@@ -231,7 +242,7 @@ int BipGraph::hungarianMethod_v4(){
 	}
 
 	adj = new list<int>[m+1];
-	int matching=0,count=0; // init matching 0
+	int count=0; // init matching 0
 	int minimum_dimension= ((m<n)? (m):(n)); // find minimum dimension duh
 	
 	while(matching< minimum_dimension){
@@ -250,7 +261,10 @@ int BipGraph::hungarianMethod_v4(){
 			}
 		}
 		
-		matching=hopcroftKarp();
+		this->matching=hopcroftKarp();
+		printf("the cost\n");
+		print_cost_dbg();
+		printf("theresidual\n");
 		print_tmpcost_dbg();
 		printf("\ndebug: match found %d\n",matching);
 		
@@ -295,8 +309,8 @@ int BipGraph::hungarianMethod_v4(){
 		int delta=INF;
 		for(int i=0;i<n;i++){
 			for(int j=0;j<m;j++){
-				//(pairU[i+1]==NIL || pairV[j+1]==NIL) pa
-				if(delta>tmpcost[j*n+i] && (!leftclose[i] && !rightclose[j])) delta=tmpcost[j*n+i];
+				
+				if(delta>tmpcost[j*n+i] && (!leftclose[i] && !rightclose[j] && tmpcost[j*n+i]!=NIL)) delta=tmpcost[j*n+i];
 			}
 		}
 		
@@ -352,7 +366,7 @@ BipGraph::BipGraph(int m, int n)
 	this->m = m;
 	this->n = n;
 	cost = new int[(m+1)*(n+1)];
-	
+	this->matching=0;
 	tmpcost = new int[(m+1)*(n+1)];
 	for(int i=0;i<m+1;i++)
 		for(int j=0;j<n+1;j++)
@@ -384,23 +398,142 @@ void BipGraph::addEdge(int u, int v, int c)
 	// m collumn n baris
 	tmpcost[u*n+v]=c;
 }
+bool possible(char type, int col,int row,int colt,int rowt){
+	//pawn only move on 1 collumn
+	if(type=='P'){
+		if(row==rowt)return true;
+		else return false;
+	}
+	//bishop only move on 1 color (diagonal cannot  
+	else if(type=='B'){
+		if(abs(col-row)%2==abs(colt-rowt)%2)return true;
+		else return false;
+	}
+	else return true;
+}
+
+int board[8][8];
+void travel(int x,int y,int counter){
+
+	counter++;
+	if(counter==7)return;
+	if(x+2<7&&y+1<8&& board[x+2][y+1]>counter){
+			board[x+2][y+1]=counter;
+			travel(x+2,y+1,counter);
+		}
+		if(x+2<8&&y-1>=0&& board[x+2][y-1]>counter){
+			board[x+2][y-1]=counter;
+			travel(x+2,y-1,counter);
+		}
+		if(x-2>=0&&y+1<8&& board[x-2][y+1]>counter){
+			board[x-2][y+1]=counter;
+			travel(x-2,y+1,counter);
+		}
+		if(x-2>=0&&y-1>=0&& board[x-2][y-1]>counter){
+			board[x-2][y-1]=counter;
+			travel(x-2,y-1,counter);
+		}
+		
+		if(x+1<8&&y+2<8&& board[x+1][y+2]>counter){
+			board[x+1][y+2]=counter;
+			travel(x+1,y+2,counter);
+		}
+		if(x-1>=0&&y+2<8&& board[x-1][y+2]>counter){
+			board[x-1][y+2]=counter;
+			travel(x-1,y+2,counter);
+		}
+		if(x+1<8&&y-2>=0&& board[x+1][y-2]>counter){
+			board[x+1][y-2]=counter;
+			travel(x+1,y-2,counter);
+		}
+		if(x-1>=0&&y-2>=0&& board[x-1][y-2]>counter){
+			board[x-1][y-2]=counter;
+			travel(x-1,y-2,counter);
+		}
+}
 
 // Driver Program
 int main()
 {
 	
-	BipGraph g(3, 3);
-	g.addEdge(0,0, 108);
-	g.addEdge(0,1,125);
-	g.addEdge(0,2,150);
-	g.addEdge(1,0,150);
-	g.addEdge(1,1,135);
-	g.addEdge(1,2,175);
-	g.addEdge(2,0,122);
-	g.addEdge(2,1,148);
-	g.addEdge(2,2,250);
-
-	cout << "Size of maximum matching is " << g.hungarianMethod_v4();
+	//chess piece location(x,y),type/name
+	vector<pair<pair<int,int>,char> >piece;
+	//target location (x,y)
+	vector<pair<int,int> >location;
+	
+	int p,l,t;
+	//testcase scan
+	scanf("%d",&t);
+	for(int i=1;i<=t;i++){
+		location.clear();
+		piece.clear();
+		scanf("%d %d",&p,&l);
+		//init the bipgraph class p*l
+		BipGraph g(p, l);
+		//scan each piece
+		while(p--){
+			int x,y;
+			char type;
+			scanf("%d %d %c",&x,&y,&type);
+			if(type=='k')scanf("%c",&type);
+			piece.push_back(mp(mp(x,y),type));
+			while(type!='\n')scanf("%c",&type);
+		}
+		//scan each target location
+		for(int k=0;k<l;k++){
+			int x,y;
+			scanf("%d %d",&x,&y);
+			location.push_back(mp(x,y));
+		}
+		//for each piece and location count the weight matrix
+		for(int j=0;j<piece.size();j++){
+			if(piece[j].second=='i'){//king
+				for(int k=0;k<l;k++)
+					if(location[k].first-piece[j].first.first<location[k].second-piece[j].first.second) g.addEdge(j,k,abs(location[k].first-piece[j].first.first));
+					else  g.addEdge(j,k,abs(location[k].second-piece[j].first.second));
+			}
+			if(piece[j].second=='q'){//queen
+				for(int k=0;k<l;k++)
+					if(location[k].first==piece[j].first.first||location[k].second==piece[j].first.second||(possible('b',location[k].first,location[k].second,piece[j].first.first,piece[j].first.second)&&(abs(location[k].first-piece[j].first.first)==abs(location[k].second-piece[j].first.second))))g.addEdge(j,k,1);
+					//bishop+rook
+					else g.addEdge(j,k,2);
+			}
+			if(piece[j].second=='n'){//knight
+				for(int m=0;m<8;m++){
+					for(int n=0;n<8;n++)board[m][n]=INF;
+				}
+				//pakai plot fill cari semua langsung
+				board[piece[j].first.first][piece[j].first.second]=0;
+				travel(piece[j].first.first-1,piece[j].first.second-1,0);
+				for(int k=0;k<l;k++){
+					g.addEdge(j,k,board[location[k].first-1][location[k].second-1]);
+				}
+				
+			}
+			if(piece[j].second=='r'){//rook
+				for(int k=0;k<l;k++)
+					if(location[k].first==piece[j].first.first||location[k].second==piece[j].first.second)g.addEdge(j,k,1);
+					else g.addEdge(j,k,2);
+			}
+			if(piece[j].second=='b'){//bishop
+				for(int k=0;k<l;k++)
+					if(possible('B',location[k].first,location[k].second,piece[j].first.first,piece[j].first.second))
+						if((abs(location[k].first-piece[j].first.first)==abs(location[k].second-piece[j].first.second)))g.addEdge(j,k,1);
+						else g.addEdge(j,k,2);
+					else g.addEdge(j,k,NIL);
+			}
+			if(piece[j].second=='p'){//pawn
+				for(int k=0;k<l;k++)
+					if(possible('P',location[k].first,location[k].second,piece[j].first.first,piece[j].first.second))
+						 g.addEdge(j,k,abs(location[k].first-piece[j].first.first));
+					else g.addEdge(j,k,NIL);
+			}
+		}
+		int res=g.hungarianMethod_v4();
+		cout <<"Case "<<i<<": Secret reveals after moving "<<g.get_last_matching()<<" pieces with minimum number of moves " << res<<endl;
+	}
+	
+	
 
 	return 0;
 }
