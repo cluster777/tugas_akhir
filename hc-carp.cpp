@@ -253,14 +253,50 @@ int BipGraph::hungarianMethod_v4(){
 		matching=hopcroftKarp();
 		print_tmpcost_dbg();
 		printf("\ndebug: match found %d\n",matching);
-		if(matching==minimum_dimension)return sum();
 		
+		if(matching==minimum_dimension)return sum();
+		//find mvc
+		bool leftclose[m+1],rightclose[n+1];
+		for(int i=0;i<m+1;i++){
+			leftclose[i]=false;
+		}
+		for(int i=0;i<n+1;i++){
+			rightclose[i]=false;
+		}
+		//from the matching in pairU list all the matched in pair then tally the 0 choose the best
+		for(int i=0;i<m;i++){
+			if(pairU[i+1] != NIL){
+				printf("found left %d or right %d\n",i,i*n+pairU[i+1]-1);
+				int left=i,right=pairU[i+1]-1,leftcnt=0,rightcnt=0;
+				for(int j=0;j<n;j++){
+					//count for the left 
+					if(tmpcost[left*n+j]==0)leftcnt++;
+				}
+				for(int j=0;j<m;j++){
+					//count for the left 
+					if(tmpcost[j*n+right]==0)rightcnt++;
+					
+				}
+				//left win or draw
+				if(leftcnt<=rightcnt){
+					leftclose[left]=true;
+					printf("left win\n");
+				}
+				//right win
+				else {
+					rightclose[right]=true;
+					printf("right win\n");
+				}
+				
+			}
+			 
+		}
 		//find min in tmp_cost_matrix where value not in matching
 		int delta=INF;
 		for(int i=0;i<n;i++){
 			for(int j=0;j<m;j++){
 				//(pairU[i+1]==NIL || pairV[j+1]==NIL) pa
-				if(delta>tmpcost[j*n+i] && (pairU[i+1]==NIL && pairV[j+1]==NIL)) delta=tmpcost[j*n+i];
+				if(delta>tmpcost[j*n+i] && (!leftclose[i] && !rightclose[j])) delta=tmpcost[j*n+i];
 			}
 		}
 		
@@ -276,10 +312,10 @@ int BipGraph::hungarianMethod_v4(){
 		for(int i=0;i<n;i++){
 			for(int j=0;j<m;j++){
 				//if cost not in matching cost=cost-delta
-				if(pairU[i+1]==NIL && pairV[j+1]==NIL) tmpcost[j*m+i]-=delta;
+				if(!leftclose[i] && !rightclose[j]) tmpcost[j*m+i]-=delta;
 				
 				// if cost in matching cost=cost+delta
-				else if(pairU[i+1]!=NIL && pairV[j+1]!=NIL)  tmpcost[j*m+i]+=delta;
+				else if(leftclose[i] && rightclose[j])  tmpcost[j*m+i]+=delta;
 			}
 		}
 		count++;
@@ -302,6 +338,7 @@ int BipGraph::sum(){
 	for(int i=0;i<m;i++){
 		
 		if(pairU[i+1] != NIL){
+			printf("%d",i*n+pairU[i+1]-1);
 			sum+=cost[i*n+pairU[i+1]-1];
 		}
 			
