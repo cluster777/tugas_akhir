@@ -103,7 +103,7 @@ int main(){
 				for(int m=0;m<8;m++){
 					for(int n=0;n<8;n++)board[m][n]=INF;
 				}
-				board[piece[j].first.first][piece[j].first.second]=0;
+				board[piece[j].first.first-1][piece[j].first.second-1]=0;
 				travel(piece[j].first.first-1,piece[j].first.second-1,0);
 				for(int k=0;k<l;k++){
 					jarak[j][k]=board[location[k].first-1][location[k].second-1];
@@ -112,7 +112,8 @@ int main(){
 			}
 			if(piece[j].second=='r'){//rook
 				for(int k=0;k<l;k++)
-					if(location[k].first==piece[j].first.first||location[k].second==piece[j].first.second)jarak[j][k]=1;
+					if (location[k].first==piece[j].first.first&&location[k].second==piece[j].first.second)jarak[j][k]=0;
+					else if(location[k].first==piece[j].first.first||location[k].second==piece[j].first.second)jarak[j][k]=1;
 					else jarak[j][k]=2;
 			}
 			if(piece[j].second=='b'){//bishop

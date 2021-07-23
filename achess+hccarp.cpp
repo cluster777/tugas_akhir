@@ -2,7 +2,7 @@
 // maximum matching
 #include<bits/stdc++.h>
 using namespace std;
-#define NIL -10
+#define NIL -1
 #define INF INT_MAX
 #define mp make_pair
 // A class to represent Bipartite graph for Hopcroft
@@ -281,8 +281,8 @@ int BipGraph::hungarianMethod_v4(){
 		}
 		//from the matching in pairU list all the matched in pair then tally the 0 choose the best
 		for(int i=0;i<m;i++){
-			if(pairU[i+1] != NIL){
-				printf("found left %d or right %d\n",i,i*n+pairU[i+1]-1);
+			if(pairU[i+1] >0){
+				printf("found left %d or right %d\n",i,pairU[i+1]-1);
 				int left=i,right=pairU[i+1]-1,leftcnt=0,rightcnt=0;
 				for(int j=0;j<n;j++){
 					//count for the left 
@@ -353,7 +353,7 @@ int BipGraph::sum(){
 	// sum cost for each matched vertex from 1 side
 	for(int i=0;i<m;i++){
 		
-		if(pairU[i+1] != NIL){
+		if(pairU[i+1] >0){
 			printf("%d",i*n+pairU[i+1]-1);
 			sum+=cost[i*n+pairU[i+1]-1];
 		}
@@ -505,7 +505,7 @@ int main()
 					for(int n=0;n<8;n++)board[m][n]=INF;
 				}
 				//pakai plot fill cari semua langsung
-				board[piece[j].first.first][piece[j].first.second]=0;
+				board[piece[j].first.first-1][piece[j].first.second-1]=0;
 				travel(piece[j].first.first-1,piece[j].first.second-1,0);
 				for(int k=0;k<l;k++){
 					g.addEdge(j,k,board[location[k].first-1][location[k].second-1]);
@@ -514,7 +514,8 @@ int main()
 			}
 			if(piece[j].second=='r'){//rook
 				for(int k=0;k<l;k++)
-					if(location[k].first==piece[j].first.first||location[k].second==piece[j].first.second)g.addEdge(j,k,1);
+					if (location[k].first==piece[j].first.first&&location[k].second==piece[j].first.second)g.addEdge(j,k,0);
+					else if(location[k].first==piece[j].first.first||location[k].second==piece[j].first.second)g.addEdge(j,k,1);
 					else g.addEdge(j,k,2);
 			}
 			if(piece[j].second=='b'){//bishop

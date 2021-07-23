@@ -1,0 +1,10 @@
+Case 1: Secret reveals after moving 55 pieces with minimum number of moves 41
+Case 2: Secret reveals after moving 53 pieces with minimum number of moves 35
+Case 3: Secret reveals after moving 55 pieces with minimum number of moves 25
+Case 4: Secret reveals after moving 55 pieces with minimum number of moves 41
+Case 5: Secret reveals after moving 54 pieces with minimum number of moves 39
+Case 6: Secret reveals after moving 55 pieces with minimum number of moves 23
+Case 7: Secret reveals after moving 52 pieces with minimum number of moves 29
+Case 8: Secret reveals after moving 56 pieces with minimum number of moves 28
+Case 9: Secret reveals after moving 51 pieces with minimum number of moves 44
+Case 10: Secret reveals after moving 58 pieces with minimum number of moves 35

@@ -1,0 +1,614 @@
+debug: found candidate 0 17
+debug: found candidate 0 42
+debug: found candidate 1 4
+debug: found candidate 1 5
+debug: found candidate 1 10
+debug: found candidate 1 13
+debug: found candidate 1 17
+debug: found candidate 1 21
+debug: found candidate 1 31
+debug: found candidate 1 37
+debug: found candidate 1 39
+debug: found candidate 1 40
+debug: found candidate 1 42
+debug: found candidate 1 46
+debug: found candidate 1 48
+debug: found candidate 1 49
+debug: found candidate 2 2
+debug: found candidate 2 4
+debug: found candidate 2 9
+debug: found candidate 2 13
+debug: found candidate 2 14
+debug: found candidate 2 15
+debug: found candidate 2 19
+debug: found candidate 2 24
+debug: found candidate 2 44
+debug: found candidate 2 47
+debug: found candidate 2 50
+debug: found candidate 2 52
+debug: found candidate 3 0
+debug: found candidate 3 12
+debug: found candidate 3 26
+debug: found candidate 3 32
+debug: found candidate 3 34
+debug: found candidate 3 36
+debug: found candidate 3 40
+debug: found candidate 3 45
+debug: found candidate 3 54
+debug: found candidate 3 55
+debug: found candidate 3 56
+debug: found candidate 3 58
+debug: found candidate 4 53
+debug: found candidate 5 10
+debug: found candidate 5 13
+debug: found candidate 5 40
+debug: found candidate 5 46
+debug: found candidate 5 48
+debug: found candidate 6 41
+debug: found candidate 7 3
+debug: found candidate 7 6
+debug: found candidate 7 7
+debug: found candidate 7 12
+debug: found candidate 7 14
+debug: found candidate 7 18
+debug: found candidate 7 24
+debug: found candidate 7 33
+debug: found candidate 7 37
+debug: found candidate 7 39
+debug: found candidate 7 40
+debug: found candidate 7 41
+debug: found candidate 7 43
+debug: found candidate 7 49
+debug: found candidate 7 51
+debug: found candidate 7 59
+debug: found candidate 8 18
+debug: found candidate 9 41
+debug: found candidate 10 34
+debug: found candidate 11 1
+debug: found candidate 11 2
+debug: found candidate 11 4
+debug: found candidate 11 20
+debug: found candidate 11 28
+debug: found candidate 11 32
+debug: found candidate 11 45
+debug: found candidate 11 50
+debug: found candidate 11 52
+debug: found candidate 11 54
+debug: found candidate 11 55
+debug: found candidate 11 58
+debug: found candidate 12 16
+debug: found candidate 13 1
+debug: found candidate 13 3
+debug: found candidate 13 7
+debug: found candidate 13 10
+debug: found candidate 13 11
+debug: found candidate 13 20
+debug: found candidate 13 33
+debug: found candidate 13 34
+debug: found candidate 13 43
+debug: found candidate 13 51
+debug: found candidate 13 59
+debug: found candidate 14 5
+debug: found candidate 14 8
+debug: found candidate 14 9
+debug: found candidate 14 18
+debug: found candidate 14 21
+debug: found candidate 14 31
+debug: found candidate 14 35
+debug: found candidate 14 36
+debug: found candidate 15 18
+debug: found candidate 15 22
+debug: found candidate 15 23
+debug: found candidate 15 25
+debug: found candidate 15 27
+debug: found candidate 15 29
+debug: found candidate 15 32
+debug: found candidate 15 46
+debug: found candidate 15 48
+debug: found candidate 15 57
+debug: found candidate 16 0
+debug: found candidate 16 1
+debug: found candidate 16 8
+debug: found candidate 16 10
+debug: found candidate 16 20
+debug: found candidate 16 26
+debug: found candidate 16 32
+debug: found candidate 16 34
+debug: found candidate 16 36
+debug: found candidate 16 41
+debug: found candidate 16 47
+debug: found candidate 16 54
+debug: found candidate 16 55
+debug: found candidate 16 56
+debug: found candidate 17 8
+debug: found candidate 17 10
+debug: found candidate 17 32
+debug: found candidate 17 41
+debug: found candidate 18 2
+debug: found candidate 18 19
+debug: found candidate 18 44
+debug: found candidate 18 50
+debug: found candidate 18 52
+debug: found candidate 19 5
+debug: found candidate 19 9
+debug: found candidate 19 18
+debug: found candidate 19 21
+debug: found candidate 19 31
+debug: found candidate 19 35
+debug: found candidate 19 36
+debug: found candidate 19 46
+debug: found candidate 19 48
+debug: found candidate 20 29
+debug: found candidate 20 57
+debug: found candidate 21 2
+debug: found candidate 21 50
+debug: found candidate 21 52
+debug: found candidate 22 0
+debug: found candidate 22 8
+debug: found candidate 22 16
+debug: found candidate 22 26
+debug: found candidate 22 37
+debug: found candidate 22 39
+debug: found candidate 22 46
+debug: found candidate 22 48
+debug: found candidate 22 49
+debug: found candidate 22 56
+debug: found candidate 23 14
+debug: found candidate 23 24
+debug: found candidate 24 8
+debug: found candidate 24 23
+debug: found candidate 24 53
+debug: found candidate 25 6
+debug: found candidate 26 3
+debug: found candidate 26 14
+debug: found candidate 26 17
+debug: found candidate 26 19
+debug: found candidate 26 22
+debug: found candidate 26 24
+debug: found candidate 26 27
+debug: found candidate 26 28
+debug: found candidate 26 32
+debug: found candidate 26 42
+debug: found candidate 26 43
+debug: found candidate 26 44
+debug: found candidate 26 51
+debug: found candidate 26 59
+debug: found candidate 27 32
+debug: found candidate 28 5
+debug: found candidate 28 9
+debug: found candidate 28 12
+debug: found candidate 28 16
+debug: found candidate 28 18
+debug: found candidate 28 21
+debug: found candidate 28 31
+debug: found candidate 28 35
+debug: found candidate 28 36
+debug: found candidate 28 47
+debug: found candidate 29 13
+debug: found candidate 30 47
+debug: found candidate 31 3
+debug: found candidate 31 11
+debug: found candidate 31 43
+debug: found candidate 31 51
+debug: found candidate 31 59
+debug: found candidate 32 46
+debug: found candidate 32 48
+debug: found candidate 33 0
+debug: found candidate 33 8
+debug: found candidate 33 16
+debug: found candidate 33 26
+debug: found candidate 33 29
+debug: found candidate 33 37
+debug: found candidate 33 39
+debug: found candidate 33 46
+debug: found candidate 33 48
+debug: found candidate 33 49
+debug: found candidate 33 53
+debug: found candidate 33 56
+debug: found candidate 33 57
+debug: found candidate 34 2
+debug: found candidate 34 3
+debug: found candidate 34 10
+debug: found candidate 34 22
+debug: found candidate 34 27
+debug: found candidate 34 34
+debug: found candidate 34 41
+debug: found candidate 34 43
+debug: found candidate 34 50
+debug: found candidate 34 51
+debug: found candidate 34 52
+debug: found candidate 34 59
+debug: found candidate 35 2
+debug: found candidate 35 11
+debug: found candidate 35 13
+debug: found candidate 35 15
+debug: found candidate 35 17
+debug: found candidate 35 22
+debug: found candidate 35 23
+debug: found candidate 35 27
+debug: found candidate 35 30
+debug: found candidate 35 38
+debug: found candidate 35 41
+debug: found candidate 35 42
+debug: found candidate 35 50
+debug: found candidate 35 52
+debug: found candidate 35 54
+debug: found candidate 35 55
+debug: found candidate 36 1
+debug: found candidate 36 6
+debug: found candidate 36 16
+debug: found candidate 36 19
+debug: found candidate 36 20
+debug: found candidate 36 25
+debug: found candidate 36 28
+debug: found candidate 36 35
+debug: found candidate 36 44
+debug: found candidate 36 54
+debug: found candidate 36 55
+debug: found candidate 37 8
+debug: found candidate 37 10
+debug: found candidate 37 14
+debug: found candidate 37 18
+debug: found candidate 37 24
+debug: found candidate 37 41
+debug: found candidate 38 2
+debug: found candidate 38 13
+debug: found candidate 38 14
+debug: found candidate 38 19
+debug: found candidate 38 24
+debug: found candidate 38 44
+debug: found candidate 38 50
+debug: found candidate 38 52
+debug: found candidate 39 40
+debug: found candidate 40 40
+debug: found candidate 41 7
+debug: found candidate 41 33
+debug: found candidate 42 3
+debug: found candidate 42 11
+debug: found candidate 42 17
+debug: found candidate 42 22
+debug: found candidate 42 27
+debug: found candidate 42 28
+debug: found candidate 42 36
+debug: found candidate 42 42
+debug: found candidate 42 43
+debug: found candidate 42 45
+debug: found candidate 42 51
+debug: found candidate 42 53
+debug: found candidate 42 58
+debug: found candidate 42 59
+debug: found candidate 43 0
+debug: found candidate 43 26
+debug: found candidate 43 56
+debug: found candidate 44 22
+debug: found candidate 44 27
+debug: found candidate 45 5
+debug: found candidate 45 6
+debug: found candidate 45 21
+debug: found candidate 45 25
+debug: found candidate 45 31
+debug: found candidate 45 40
+debug: found candidate 46 13
+debug: found candidate 47 37
+debug: found candidate 47 39
+debug: found candidate 47 49
+debug: found candidate 48 18
+debug: found candidate 49 53
+debug: found candidate 50 8
+debug: found candidate 50 10
+debug: found candidate 50 23
+debug: found candidate 51 1
+debug: found candidate 51 8
+debug: found candidate 51 10
+debug: found candidate 51 17
+debug: found candidate 51 20
+debug: found candidate 51 22
+debug: found candidate 51 27
+debug: found candidate 51 41
+debug: found candidate 51 42
+debug: found candidate 51 45
+debug: found candidate 51 47
+debug: found candidate 51 58
+debug: found candidate 52 45
+debug: found candidate 52 58
+debug: found candidate 53 2
+debug: found candidate 53 5
+debug: found candidate 53 17
+debug: found candidate 53 21
+debug: found candidate 53 29
+debug: found candidate 53 31
+debug: found candidate 53 37
+debug: found candidate 53 39
+debug: found candidate 53 42
+debug: found candidate 53 49
+debug: found candidate 53 50
+debug: found candidate 53 52
+debug: found candidate 53 57
+debug: found candidate 54 3
+debug: found candidate 54 4
+debug: found candidate 54 10
+debug: found candidate 54 28
+debug: found candidate 54 34
+debug: found candidate 54 43
+debug: found candidate 54 45
+debug: found candidate 54 51
+debug: found candidate 54 54
+debug: found candidate 54 55
+debug: found candidate 54 58
+debug: found candidate 54 59
+debug: found candidate 55 5
+debug: found candidate 55 6
+debug: found candidate 55 21
+debug: found candidate 55 25
+debug: found candidate 55 31
+debug: found candidate 55 40
+debug: found candidate 55 47
+debug: found candidate 56 17
+debug: found candidate 56 42
+debug: found candidate 57 10
+debug: found candidate 57 14
+debug: found candidate 57 22
+debug: found candidate 57 23
+debug: found candidate 57 24
+debug: found candidate 57 27
+debug: found candidate 57 28
+debug: found candidate 58 8
+debug: found candidate 58 12
+debug: found candidate 58 15
+debug: found candidate 58 23
+debug: found candidate 58 34
+debug: found candidate 58 40
+debug: found candidate 58 45
+debug: found candidate 58 53
+debug: found candidate 58 58
+debug: found candidate 59 1
+debug: found candidate 59 7
+debug: found candidate 59 11
+debug: found candidate 59 20
+debug: found candidate 59 33
+the cost
+2 2 2 2 1 1 2 2 2 2 2 2 2 2 2 2 2 0 2 2 2 1 1 2 2 2 2 1 2 2 2 1 2 2 2 2 2 1 2 1 2 2 0 2 2 1 2 2 2 1 2 2 2 2 2 2 2 2 1 2 
+2 2 2 2 1 1 2 2 2 2 1 2 2 1 2 2 2 1 2 2 2 1 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 1 2 1 1 2 1 2 2 2 1 2 1 1 2 2 2 2 2 2 2 2 2 2 
+2 2 1 2 1 2 2 2 2 1 2 2 2 1 1 1 2 2 2 1 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 1 2 2 1 2 1 2 2 2 2 2 2 2 
+0 1 1 3 2 1 2 1 4 2 5 1 0 5 3 2 1 2 3 1 1 1 2 4 3 1 0 2 1 1 1 1 0 1 0 1 0 3 1 3 0 3 2 3 1 0 5 2 5 3 1 3 1 3 0 0 0 1 0 3 
+-1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 3 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 5 -1 -1 -1 -1 -1 -1 -1 4 -1 -1 -1 -1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 1 -1 0 -1 -1 -1 -1 -1 1 
+5 6 4 2 7 4 2 2 1 7 0 4 2 0 2 7 4 3 2 6 6 4 3 1 2 6 5 3 6 4 6 4 5 2 5 6 5 2 6 2 0 2 3 2 6 3 0 7 0 2 4 2 4 1 5 5 5 4 3 2 
+-1 4 -1 -1 -1 -1 -1 -1 1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 4 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 5 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+3 4 2 0 5 2 0 0 1 5 2 2 0 2 0 5 2 1 0 4 4 2 1 1 0 4 3 1 4 2 4 2 3 0 3 4 3 0 4 0 0 0 1 0 4 1 2 5 2 0 2 0 2 1 3 3 3 2 1 0 
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 1 1 -1 4 -1 1 -1 2 -1 -1 3 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 
+2 1 2 1 2 2 1 1 1 2 1 2 1 2 1 2 2 2 1 2 1 2 2 2 1 2 2 2 2 2 2 2 2 1 2 2 2 1 2 1 2 0 2 1 2 2 2 1 2 1 2 1 2 2 2 2 2 2 2 1 
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 3 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 5 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 
+-1 1 1 2 1 -1 -1 2 -1 -1 2 2 -1 2 2 2 -1 2 -1 2 1 -1 2 2 2 -1 -1 2 1 -1 2 -1 1 2 2 -1 -1 -1 2 -1 -1 2 2 2 2 1 -1 -1 -1 -1 1 2 1 -1 1 1 -1 -1 1 2 
+-1 -1 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 1 -1 -1 -1 -1 
+-1 1 2 1 2 -1 -1 1 -1 -1 1 1 -1 2 2 2 -1 2 -1 2 1 -1 2 2 2 -1 -1 2 2 -1 2 -1 2 1 1 -1 -1 -1 2 -1 -1 2 2 1 2 2 -1 -1 -1 -1 2 1 2 -1 2 2 -1 -1 2 1 
+2 -1 -1 -1 -1 1 2 -1 1 1 -1 -1 2 -1 -1 -1 2 -1 1 -1 -1 1 -1 -1 -1 2 2 -1 -1 2 -1 1 -1 -1 -1 1 1 2 -1 2 2 -1 -1 -1 -1 -1 2 2 2 2 -1 -1 -1 2 -1 -1 2 2 -1 -1 
+5 1 1 3 2 2 4 5 1 5 1 3 6 1 1 6 4 2 0 1 1 2 0 0 1 0 5 0 3 0 5 2 0 5 6 4 3 2 5 2 6 1 2 3 1 6 0 1 0 2 1 3 1 3 4 4 5 0 6 3 
+1 1 2 2 2 2 2 2 1 2 1 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 1 2 2 2 2 2 1 2 1 2 1 2 2 2 2 1 2 2 2 2 2 1 2 2 2 2 2 2 1 1 1 2 2 2 
+4 1 1 2 2 1 3 4 0 4 0 2 5 2 2 5 3 1 1 1 1 1 1 1 2 1 4 1 2 1 4 1 0 4 5 3 2 1 4 1 5 0 1 2 1 5 1 2 1 1 1 2 1 2 3 3 4 1 5 2 
+-1 -1 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 5 3 -1 -1 -1 -1 1 -1 -1 -1 -1 3 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 -1 -1 -1 -1 -1 -1 -1 
+2 -1 -1 -1 -1 1 2 -1 2 1 -1 -1 2 -1 -1 -1 2 -1 1 -1 -1 1 -1 -1 -1 2 2 -1 -1 2 -1 1 -1 -1 -1 1 1 2 -1 2 2 -1 -1 -1 -1 -1 1 2 1 2 -1 -1 -1 2 -1 -1 2 2 -1 -1 
+2 2 1 2 2 1 2 2 2 2 2 1 2 2 2 2 1 2 1 2 2 1 1 1 2 1 2 1 2 0 2 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 1 2 1 2 1 2 2 2 2 0 2 2 
+-1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 4 2 -1 -1 -1 -1 2 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 0 -1 0 -1 -1 -1 -1 -1 -1 -1 
+1 -1 -1 -1 -1 2 2 -1 1 2 -1 -1 2 -1 -1 -1 1 -1 2 -1 -1 2 -1 -1 -1 2 1 -1 -1 2 -1 2 -1 -1 -1 2 2 1 -1 1 2 -1 -1 -1 -1 -1 1 2 1 1 -1 -1 -1 2 -1 -1 1 2 -1 -1 
+-1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 0 -1 -1 -1 -1 4 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 4 -1 -1 -1 -1 -1 2 -1 2 -1 -1 -1 -1 -1 -1 -1 
+4 5 3 1 6 3 1 2 0 6 1 3 3 1 1 6 3 2 1 5 5 3 2 0 1 5 4 2 5 3 5 3 4 2 4 5 4 1 5 1 3 1 2 1 5 3 1 6 1 1 3 1 3 0 4 4 4 3 3 1 
+-1 -1 -1 -1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 3 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 5 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 4 4 -1 -1 -1 -1 
+-1 2 2 1 2 -1 -1 2 -1 -1 2 2 -1 2 1 2 -1 1 -1 1 2 -1 1 2 1 -1 -1 1 1 -1 2 -1 1 2 2 -1 -1 -1 2 -1 -1 2 1 1 1 2 -1 -1 -1 -1 2 1 2 -1 2 2 -1 -1 2 1 
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 1 1 2 1 1 1 2 1 2 2 0 2 1 2 1 2 2 2 2 2 2 2 2 2 1 2 1 2 2 2 2 2 1 1 1 1 2 2 
+2 -1 -1 -1 -1 1 2 -1 2 1 -1 -1 1 -1 -1 -1 1 -1 1 -1 -1 1 -1 -1 -1 2 2 -1 -1 2 -1 1 -1 -1 -1 1 1 2 -1 2 2 -1 -1 -1 -1 -1 2 1 2 2 -1 -1 -1 2 -1 -1 2 2 -1 -1 
+2 2 1 2 2 2 2 2 2 2 1 2 2 0 1 2 2 2 2 1 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 1 2 1 2 1 2 1 2 1 2 2 2 2 2 2 2 
+2 1 2 2 1 2 2 2 1 1 1 2 2 2 2 1 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 0 2 2 2 2 2 2 2 2 2 2 2 2 
+-1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 3 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 1 -1 2 -1 -1 -1 -1 -1 1 
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 3 1 -1 6 -1 3 -1 4 -1 -1 5 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 4 -1 -1 
+1 -1 -1 -1 -1 2 2 -1 1 2 -1 -1 2 -1 -1 -1 1 -1 2 -1 -1 2 -1 -1 -1 2 1 -1 -1 1 -1 2 -1 -1 -1 2 2 1 -1 1 2 -1 -1 -1 -1 -1 1 2 1 1 -1 -1 -1 1 -1 -1 1 1 -1 -1 
+-1 2 1 1 2 -1 -1 2 -1 -1 1 2 -1 2 2 2 -1 2 -1 2 2 -1 1 2 2 -1 -1 1 2 -1 2 -1 2 2 1 -1 -1 -1 2 -1 -1 1 2 1 2 2 -1 -1 -1 -1 1 1 1 -1 2 2 -1 -1 2 1 
+-1 2 1 2 2 -1 -1 2 -1 -1 2 1 -1 1 2 1 -1 1 -1 2 2 -1 1 1 2 -1 -1 1 2 -1 1 -1 2 2 2 -1 -1 -1 1 -1 -1 1 1 2 2 2 -1 -1 -1 -1 1 2 1 -1 1 1 -1 -1 2 2 
+1 0 2 1 1 2 0 1 3 1 3 1 2 5 4 2 0 2 4 0 0 2 3 4 4 0 1 3 0 2 1 2 1 1 2 0 1 2 1 2 2 3 2 1 0 2 4 1 4 2 2 1 2 1 0 0 1 2 2 1 
+4 4 2 2 5 2 3 4 0 5 0 2 5 2 0 5 3 1 0 4 4 2 1 1 0 4 4 1 4 2 4 2 3 4 5 4 3 1 4 1 5 0 1 2 4 5 1 5 1 1 2 2 2 2 3 3 4 2 5 2 
+6 2 0 4 3 3 5 6 2 6 2 4 7 0 0 7 5 3 1 0 2 3 1 1 0 1 6 1 4 1 6 3 1 6 7 5 4 3 6 3 7 2 3 4 0 7 1 2 1 3 0 4 0 4 5 5 6 1 7 4 
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 7 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 5 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 3 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 3 -1 
+2 2 2 2 2 2 2 2 2 2 1 2 1 1 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 0 2 2 2 2 1 1 2 1 2 2 2 2 2 2 2 2 2 1 2 
+5 -1 -1 -1 -1 -1 -1 2 -1 7 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 5 -1 -1 -1 6 -1 -1 2 -1 -1 -1 -1 6 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 5 -1 -1 -1 
+2 2 2 1 2 2 2 2 2 2 2 1 2 2 2 2 2 1 2 2 2 2 1 2 2 2 2 1 1 2 2 2 2 2 2 2 1 2 2 2 2 2 1 1 2 1 2 2 2 2 2 1 2 1 2 2 2 2 1 1 
+0 -1 -1 -1 -1 -1 -1 3 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 1 -1 -1 3 -1 -1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 2 2 2 0 1 2 1 2 0 2 1 2 2 1 2 2 2 2 2 2 2 2 2 1 2 2 1 1 2 1 2 2 2 2 2 2 2 2 1 1 2 
+2 -1 -1 -1 -1 1 1 -1 2 2 -1 -1 2 -1 -1 -1 2 -1 2 -1 -1 1 -1 -1 -1 1 2 -1 -1 2 -1 1 -1 -1 -1 2 2 2 -1 2 1 -1 -1 -1 -1 -1 2 2 2 2 -1 -1 -1 2 -1 -1 2 2 -1 -1 
+6 5 3 4 6 3 5 6 2 6 2 4 7 0 1 7 5 3 1 5 5 3 2 1 1 5 6 2 5 3 6 3 4 6 7 5 4 3 6 3 7 2 3 4 5 7 1 6 1 3 3 4 3 4 5 5 6 3 7 4 
+-1 -1 -1 -1 5 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 0 -1 0 -1 -1 1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+2 2 2 1 2 2 1 1 2 2 2 2 1 2 1 2 2 2 0 2 2 2 1 1 1 1 2 1 2 1 2 2 1 1 2 2 2 1 2 1 2 1 2 1 2 2 1 2 1 1 2 1 2 2 2 2 2 1 2 1 
+-1 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 4 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 6 -1 -1 -1 -1 -1 -1 -1 5 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 2 -1 1 -1 -1 -1 -1 -1 2 
+4 5 3 2 6 3 3 4 0 6 0 3 5 1 1 6 3 2 1 5 5 3 2 0 1 5 4 2 5 3 5 3 4 4 5 5 4 1 5 1 5 1 2 2 5 5 1 6 1 1 3 2 3 2 4 4 4 3 5 2 
+2 1 2 2 2 2 2 2 1 2 1 2 2 2 2 2 2 1 2 2 1 2 1 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 2 2 1 2 1 2 2 2 2 2 2 2 2 2 2 1 2 
+2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 1 2 1 2 2 2 2 1 2 2 2 2 1 2 2 2 2 2 2 1 2 2 2 2 2 1 2 1 2 2 0 2 2 2 2 2 2 2 2 2 2 2 2 0 2 
+3 2 0 1 3 0 2 3 1 3 1 1 4 3 2 4 2 0 2 2 2 0 1 2 2 2 3 1 2 0 3 0 1 3 4 2 1 0 3 0 4 1 0 1 2 4 2 3 2 0 0 1 0 1 2 2 3 0 4 1 
+-1 2 2 1 1 -1 -1 2 -1 -1 1 2 -1 2 2 2 -1 2 -1 2 2 -1 2 2 2 -1 -1 2 1 -1 2 -1 2 2 1 -1 -1 -1 2 -1 -1 2 2 1 2 1 -1 -1 -1 -1 2 1 2 -1 1 1 -1 -1 1 1 
+2 -1 -1 -1 -1 1 1 -1 2 2 -1 -1 2 -1 -1 -1 2 -1 2 -1 -1 1 -1 -1 -1 1 2 -1 -1 2 -1 1 -1 -1 -1 2 2 2 -1 2 1 -1 -1 -1 -1 -1 2 1 2 2 -1 -1 -1 2 -1 -1 2 2 -1 -1 
+-1 -1 -1 -1 4 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 -1 -1 0 -1 -1 -1 -1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+-1 2 2 2 2 -1 -1 2 -1 -1 1 2 -1 2 1 2 -1 2 -1 2 2 -1 1 1 1 -1 -1 1 1 -1 2 -1 2 2 2 -1 -1 -1 2 -1 -1 2 2 2 2 2 -1 -1 -1 -1 2 2 2 -1 2 2 -1 -1 2 2 
+2 2 2 2 2 2 2 2 1 2 2 2 1 2 2 1 2 2 2 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 1 2 2 2 2 1 2 2 2 2 2 2 2 1 2 2 2 2 1 2 
+-1 1 2 2 2 -1 -1 1 -1 -1 2 1 -1 2 2 2 -1 2 -1 2 1 -1 2 2 2 -1 -1 2 2 -1 2 -1 2 1 2 -1 -1 -1 2 -1 -1 2 2 2 2 2 -1 -1 -1 -1 2 2 2 -1 2 2 -1 -1 2 2 
+theresidual
+2 2 2 2 1 1 2 2 2 2 2 2 2 2 2 2 2 0 2 2 2 1 1 2 2 2 2 1 2 2 2 1 2 2 2 2 2 1 2 1 2 2 0 2 2 1 2 2 2 1 2 2 2 2 2 2 2 2 1 2 
+1 1 1 1 0 0 1 1 1 1 0 1 1 0 1 1 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 0 0 1 0 1 1 1 0 1 0 0 1 1 1 1 1 1 1 1 1 1 
+1 1 0 1 0 1 1 1 1 0 1 1 1 0 0 0 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 0 1 1 0 1 0 1 1 1 1 1 1 1 
+0 1 1 3 2 1 2 1 4 2 5 1 0 5 3 2 1 2 3 1 1 1 2 4 3 1 0 2 1 1 1 1 0 1 0 1 0 3 1 3 0 3 2 3 1 0 5 2 5 3 1 3 1 3 0 0 0 1 0 3 
+-1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 3 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 5 -1 -1 -1 -1 -1 -1 -1 4 -1 -1 -1 -1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 1 -1 0 -1 -1 -1 -1 -1 1 
+5 6 4 2 7 4 2 2 1 7 0 4 2 0 2 7 4 3 2 6 6 4 3 1 2 6 5 3 6 4 6 4 5 2 5 6 5 2 6 2 0 2 3 2 6 3 0 7 0 2 4 2 4 1 5 5 5 4 3 2 
+-1 4 -1 -1 -1 -1 -1 -1 1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 4 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 5 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+3 4 2 0 5 2 0 0 1 5 2 2 0 2 0 5 2 1 0 4 4 2 1 1 0 4 3 1 4 2 4 2 3 0 3 4 3 0 4 0 0 0 1 0 4 1 2 5 2 0 2 0 2 1 3 3 3 2 1 0 
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 1 1 -1 4 -1 1 -1 2 -1 -1 3 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 
+2 1 2 1 2 2 1 1 1 2 1 2 1 2 1 2 2 2 1 2 1 2 2 2 1 2 2 2 2 2 2 2 2 1 2 2 2 1 2 1 2 0 2 1 2 2 2 1 2 1 2 1 2 2 2 2 2 2 2 1 
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 3 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 5 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 
+-1 0 0 1 0 -1 -1 1 -1 -1 1 1 -1 1 1 1 -1 1 -1 1 0 -1 1 1 1 -1 -1 1 0 -1 1 -1 0 1 1 -1 -1 -1 1 -1 -1 1 1 1 1 0 -1 -1 -1 -1 0 1 0 -1 0 0 -1 -1 0 1 
+-1 -1 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 1 -1 -1 -1 -1 
+-1 0 1 0 1 -1 -1 0 -1 -1 0 0 -1 1 1 1 -1 1 -1 1 0 -1 1 1 1 -1 -1 1 1 -1 1 -1 1 0 0 -1 -1 -1 1 -1 -1 1 1 0 1 1 -1 -1 -1 -1 1 0 1 -1 1 1 -1 -1 1 0 
+1 -1 -1 -1 -1 0 1 -1 0 0 -1 -1 1 -1 -1 -1 1 -1 0 -1 -1 0 -1 -1 -1 1 1 -1 -1 1 -1 0 -1 -1 -1 0 0 1 -1 1 1 -1 -1 -1 -1 -1 1 1 1 1 -1 -1 -1 1 -1 -1 1 1 -1 -1 
+5 1 1 3 2 2 4 5 1 5 1 3 6 1 1 6 4 2 0 1 1 2 0 0 1 0 5 0 3 0 5 2 0 5 6 4 3 2 5 2 6 1 2 3 1 6 0 1 0 2 1 3 1 3 4 4 5 0 6 3 
+0 0 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 0 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 1 0 0 0 1 1 1 
+4 1 1 2 2 1 3 4 0 4 0 2 5 2 2 5 3 1 1 1 1 1 1 1 2 1 4 1 2 1 4 1 0 4 5 3 2 1 4 1 5 0 1 2 1 5 1 2 1 1 1 2 1 2 3 3 4 1 5 2 
+-1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 4 2 -1 -1 -1 -1 0 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 0 -1 0 -1 -1 -1 -1 -1 -1 -1 
+1 -1 -1 -1 -1 0 1 -1 1 0 -1 -1 1 -1 -1 -1 1 -1 0 -1 -1 0 -1 -1 -1 1 1 -1 -1 1 -1 0 -1 -1 -1 0 0 1 -1 1 1 -1 -1 -1 -1 -1 0 1 0 1 -1 -1 -1 1 -1 -1 1 1 -1 -1 
+2 2 1 2 2 1 2 2 2 2 2 1 2 2 2 2 1 2 1 2 2 1 1 1 2 1 2 1 2 0 2 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 1 2 1 2 1 2 2 2 2 0 2 2 
+-1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 4 2 -1 -1 -1 -1 2 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 0 -1 0 -1 -1 -1 -1 -1 -1 -1 
+0 -1 -1 -1 -1 1 1 -1 0 1 -1 -1 1 -1 -1 -1 0 -1 1 -1 -1 1 -1 -1 -1 1 0 -1 -1 1 -1 1 -1 -1 -1 1 1 0 -1 0 1 -1 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 1 -1 -1 0 1 -1 -1 
+-1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 0 -1 -1 -1 -1 4 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 4 -1 -1 -1 -1 -1 2 -1 2 -1 -1 -1 -1 -1 -1 -1 
+4 5 3 1 6 3 1 2 0 6 1 3 3 1 1 6 3 2 1 5 5 3 2 0 1 5 4 2 5 3 5 3 4 2 4 5 4 1 5 1 3 1 2 1 5 3 1 6 1 1 3 1 3 0 4 4 4 3 3 1 
+-1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 4 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 3 3 -1 -1 -1 -1 
+-1 1 1 0 1 -1 -1 1 -1 -1 1 1 -1 1 0 1 -1 0 -1 0 1 -1 0 1 0 -1 -1 0 0 -1 1 -1 0 1 1 -1 -1 -1 1 -1 -1 1 0 0 0 1 -1 -1 -1 -1 1 0 1 -1 1 1 -1 -1 1 0 
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 1 1 2 1 1 1 2 1 2 2 0 2 1 2 1 2 2 2 2 2 2 2 2 2 1 2 1 2 2 2 2 2 1 1 1 1 2 2 
+1 -1 -1 -1 -1 0 1 -1 1 0 -1 -1 0 -1 -1 -1 0 -1 0 -1 -1 0 -1 -1 -1 1 1 -1 -1 1 -1 0 -1 -1 -1 0 0 1 -1 1 1 -1 -1 -1 -1 -1 1 0 1 1 -1 -1 -1 1 -1 -1 1 1 -1 -1 
+2 2 1 2 2 2 2 2 2 2 1 2 2 0 1 2 2 2 2 1 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 1 2 1 2 1 2 1 2 1 2 2 2 2 2 2 2 
+2 1 2 2 1 2 2 2 1 1 1 2 2 2 2 1 2 2 2 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 0 2 2 2 2 2 2 2 2 2 2 2 2 
+-1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 0 -1 1 -1 -1 -1 -1 -1 0 
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 3 1 -1 6 -1 3 -1 4 -1 -1 5 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 4 -1 -1 
+0 -1 -1 -1 -1 1 1 -1 0 1 -1 -1 1 -1 -1 -1 0 -1 1 -1 -1 1 -1 -1 -1 1 0 -1 -1 0 -1 1 -1 -1 -1 1 1 0 -1 0 1 -1 -1 -1 -1 -1 0 1 0 0 -1 -1 -1 0 -1 -1 0 0 -1 -1 
+-1 1 0 0 1 -1 -1 1 -1 -1 0 1 -1 1 1 1 -1 1 -1 1 1 -1 0 1 1 -1 -1 0 1 -1 1 -1 1 1 0 -1 -1 -1 1 -1 -1 0 1 0 1 1 -1 -1 -1 -1 0 0 0 -1 1 1 -1 -1 1 0 
+-1 1 0 1 1 -1 -1 1 -1 -1 1 0 -1 0 1 0 -1 0 -1 1 1 -1 0 0 1 -1 -1 0 1 -1 0 -1 1 1 1 -1 -1 -1 0 -1 -1 0 0 1 1 1 -1 -1 -1 -1 0 1 0 -1 0 0 -1 -1 1 1 
+1 0 2 1 1 2 0 1 3 1 3 1 2 5 4 2 0 2 4 0 0 2 3 4 4 0 1 3 0 2 1 2 1 1 2 0 1 2 1 2 2 3 2 1 0 2 4 1 4 2 2 1 2 1 0 0 1 2 2 1 
+4 4 2 2 5 2 3 4 0 5 0 2 5 2 0 5 3 1 0 4 4 2 1 1 0 4 4 1 4 2 4 2 3 4 5 4 3 1 4 1 5 0 1 2 4 5 1 5 1 1 2 2 2 2 3 3 4 2 5 2 
+6 2 0 4 3 3 5 6 2 6 2 4 7 0 0 7 5 3 1 0 2 3 1 1 0 1 6 1 4 1 6 3 1 6 7 5 4 3 6 3 7 2 3 4 0 7 1 2 1 3 0 4 0 4 5 5 6 1 7 4 
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 7 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 5 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 3 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 3 -1 
+2 2 2 2 2 2 2 2 2 2 1 2 1 1 2 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 0 2 2 2 2 1 1 2 1 2 2 2 2 2 2 2 2 2 1 2 
+3 -1 -1 -1 -1 -1 -1 0 -1 5 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 3 -1 -1 -1 4 -1 -1 0 -1 -1 -1 -1 4 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 3 -1 -1 -1 
+1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 0 0 
+0 -1 -1 -1 -1 -1 -1 3 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 1 -1 -1 3 -1 -1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 2 2 2 0 1 2 1 2 0 2 1 2 2 1 2 2 2 2 2 2 2 2 2 1 2 2 1 1 2 1 2 2 2 2 2 2 2 2 1 1 2 
+1 -1 -1 -1 -1 0 0 -1 1 1 -1 -1 1 -1 -1 -1 1 -1 1 -1 -1 0 -1 -1 -1 0 1 -1 -1 1 -1 0 -1 -1 -1 1 1 1 -1 1 0 -1 -1 -1 -1 -1 1 1 1 1 -1 -1 -1 1 -1 -1 1 1 -1 -1 
+6 5 3 4 6 3 5 6 2 6 2 4 7 0 1 7 5 3 1 5 5 3 2 1 1 5 6 2 5 3 6 3 4 6 7 5 4 3 6 3 7 2 3 4 5 7 1 6 1 3 3 4 3 4 5 5 6 3 7 4 
+-1 -1 -1 -1 5 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 -1 -1 -1 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 2 -1 -1 -1 -1 -1 0 -1 0 -1 -1 1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+2 2 2 1 2 2 1 1 2 2 2 2 1 2 1 2 2 2 0 2 2 2 1 1 1 1 2 1 2 1 2 2 1 1 2 2 2 1 2 1 2 1 2 1 2 2 1 2 1 1 2 1 2 2 2 2 2 1 2 1 
+-1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 3 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 5 -1 -1 -1 -1 -1 -1 -1 4 -1 -1 -1 -1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 1 -1 0 -1 -1 -1 -1 -1 1 
+4 5 3 2 6 3 3 4 0 6 0 3 5 1 1 6 3 2 1 5 5 3 2 0 1 5 4 2 5 3 5 3 4 4 5 5 4 1 5 1 5 1 2 2 5 5 1 6 1 1 3 2 3 2 4 4 4 3 5 2 
+1 0 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 0 1 1 0 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 0 1 
+2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 1 2 1 2 2 2 2 1 2 2 2 2 1 2 2 2 2 2 2 1 2 2 2 2 2 1 2 1 2 2 0 2 2 2 2 2 2 2 2 2 2 2 2 0 2 
+3 2 0 1 3 0 2 3 1 3 1 1 4 3 2 4 2 0 2 2 2 0 1 2 2 2 3 1 2 0 3 0 1 3 4 2 1 0 3 0 4 1 0 1 2 4 2 3 2 0 0 1 0 1 2 2 3 0 4 1 
+-1 1 1 0 0 -1 -1 1 -1 -1 0 1 -1 1 1 1 -1 1 -1 1 1 -1 1 1 1 -1 -1 1 0 -1 1 -1 1 1 0 -1 -1 -1 1 -1 -1 1 1 0 1 0 -1 -1 -1 -1 1 0 1 -1 0 0 -1 -1 0 0 
+1 -1 -1 -1 -1 0 0 -1 1 1 -1 -1 1 -1 -1 -1 1 -1 1 -1 -1 0 -1 -1 -1 0 1 -1 -1 1 -1 0 -1 -1 -1 1 1 1 -1 1 0 -1 -1 -1 -1 -1 1 0 1 1 -1 -1 -1 1 -1 -1 1 1 -1 -1 
+-1 -1 -1 -1 4 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 -1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 -1 -1 0 -1 -1 -1 -1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+-1 1 1 1 1 -1 -1 1 -1 -1 0 1 -1 1 0 1 -1 1 -1 1 1 -1 0 0 0 -1 -1 0 0 -1 1 -1 1 1 1 -1 -1 -1 1 -1 -1 1 1 1 1 1 -1 -1 -1 -1 1 1 1 -1 1 1 -1 -1 1 1 
+1 1 1 1 1 1 1 1 0 1 1 1 0 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 0 1 
+-1 0 1 1 1 -1 -1 0 -1 -1 1 0 -1 1 1 1 -1 1 -1 1 0 -1 1 1 1 -1 -1 1 1 -1 1 -1 1 0 1 -1 -1 -1 1 -1 -1 1 1 1 1 1 -1 -1 -1 -1 1 1 1 -1 1 1 -1 -1 1 1 
+
+debug: match found 55
+found left 0 or right 17
+left win
+found left 1 or right 64
+right win
+found left 2 or right 122
+right win
+found left 3 or right 180
+right win
+found left 4 or right 293
+left win
+found left 5 or right 348
+left win
+found left 6 or right 401
+left win
+found left 7 or right 423
+right win
+found left 8 or right 498
+left win
+found left 9 or right 539
+left win
+found left 10 or right 634
+left win
+found left 11 or right 712
+right win
+found left 12 or right 736
+left win
+found left 13 or right 787
+right win
+found left 14 or right 845
+right win
+found left 15 or right 957
+right win
+found left 16 or right 996
+right win
+found left 17 or right 1028
+left win
+found left 18 or right 1099
+left win
+found left 19 or right 1149
+right win
+found left 20 or right 1229
+left win
+found left 21 or right 1310
+left win
+found left 22 or right 1346
+right win
+found left 23 or right 1394
+left win
+found left 24 or right 1463
+left win
+found left 25 or right 1506
+left win
+found left 26 or right 1611
+right win
+found left 27 or right 1652
+left win
+found left 28 or right 1692
+right win
+found left 29 or right 1753
+left win
+found left 30 or right 1847
+left win
+found left 31 or right 1871
+left win
+found left 32 or right 1966
+left win
+found left 33 or right 2017
+right win
+found left 34 or right 2099
+right win
+found left 35 or right 2115
+right win
+found left 36 or right 2195
+right win
+found left 37 or right 2244
+left win
+found left 38 or right 2324
+right win
+found left 39 or right 2380
+left win
+found left 40 or right 2399
+left win
+found left 41 or right 2493
+left win
+found left 42 or right 2548
+right win
+found left 43 or right 2636
+left win
+found left 44 or right 2662
+left win
+found left 45 or right 2721
+left win
+found left 46 or right 2759
+left win
+found left 47 or right 2859
+left win
+found left 48 or right 2879
+left win
+found left 49 or right 2939
+left win
+found left 50 or right 3010
+left win
+found left 51 or right 3080
+right win
+found left 52 or right 3165
+left win
+found left 53 or right 3211
+right win
+found left 54 or right 3283
+right win
+found left 55 or right 3325
+right win
+found left 56 or right 3402
+left win
+found left 57 or right 3447
+left win
+found left 58 or right 3538
+right win
+found left 59 or right 3541
+left win
+debug: match not maximum -> found delta 0
+17641221802933484014234985396347127367878459579961028109911491229131013461394146315061611165216921753184718711966201720992115219522442324238023992493254826362662272127592859287929393010308031653211328333253402344735383541Case 1: Secret reveals after moving 55 pieces with minimum number of moves 23
