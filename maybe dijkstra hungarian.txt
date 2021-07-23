@@ -1,0 +1,7 @@
+for each vertex do :
+	priority queue each path(weight smallest first) 
+	while pq ! empty
+		dequeue 1 path 
+		if found augmenting path break
+		queue each path in dequeued path
+	augment

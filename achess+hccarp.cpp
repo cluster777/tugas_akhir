@@ -57,12 +57,12 @@ int BipGraph::get_last_matching(){
 // Returns size of maximum matching
 int BipGraph::hopcroftKarp()
 {
- 
+ 	int nilx=0;
     // Initialize NIL as pair of all vertices
     for (int u=0; u<=m; u++)
-        pairU[u] = NIL;
+        pairU[u] = nilx;
     for (int v=0; v<=n; v++)
-        pairV[v] = NIL;
+        pairV[v] = nilx;
  	for (int i=0;i<=m;i++)
  		dist[i]=0;
     // Initialize result
@@ -77,7 +77,7 @@ int BipGraph::hopcroftKarp()
  
             // If current vertex is free and there is
             // an augmenting path from current vertex
-            if (pairU[u]==NIL && dfs(u))
+            if (pairU[u]==nilx && dfs(u))
                 result++;
     }
     return result;
@@ -87,13 +87,14 @@ int BipGraph::hopcroftKarp()
 // false
 bool BipGraph::bfs()
 {
+	int nilx=0;
     queue<int> Q; //an integer queue
  
     // First layer of vertices (set distance as 0)
     for (int u=1; u<=m; u++)
     {
         // If this is a free vertex, add it to queue
-        if (pairU[u]==NIL)
+        if (pairU[u]==nilx)
         {
             // u is not matched
             dist[u] = 0;
@@ -106,7 +107,7 @@ bool BipGraph::bfs()
     }
  
     // Initialize distance to NIL as infinite
-    dist[NIL] = INF;
+    dist[nilx] = INF;
  
     // Q is going to contain vertices of left side only.
     while (!Q.empty())
@@ -116,7 +117,7 @@ bool BipGraph::bfs()
         Q.pop();
  
         // If this node is not NIL and can provide a shorter path to NIL
-        if (dist[u] < dist[NIL])
+        if (dist[u] < dist[nilx])
         {
             // Get all adjacent vertices of the dequeued vertex u
             list<int>::iterator i;
@@ -138,13 +139,14 @@ bool BipGraph::bfs()
  
     // If we could come back to NIL using alternating path of distinct
     // vertices then there is an augmenting path
-    return (dist[NIL] != INF);
+    return (dist[nilx] != INF);
 }
  
 // Returns true if there is an augmenting path beginning with free vertex u
 bool BipGraph::dfs(int u)
 {
-    if (u != NIL)
+	int nilx=0;
+    if (u != nilx)
     {
         list<int>::iterator i;
         for (i=adj[u].begin(); i!=adj[u].end(); ++i)
@@ -370,7 +372,7 @@ BipGraph::BipGraph(int m, int n)
 	tmpcost = new int[(m+1)*(n+1)];
 	for(int i=0;i<m+1;i++)
 		for(int j=0;j<n+1;j++)
-			tmpcost[i*m+j]=NIL;
+			tmpcost[i*n+j]=NIL;
 	// pairU[u] stores pair of u in matching where u
 	// is a vertex on left side of Bipartite Graph.
 	// If u doesn't have any pair, then pairU[u] is NIL
