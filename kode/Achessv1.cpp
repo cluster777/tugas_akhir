@@ -94,7 +94,8 @@ int main(){
 			}
 			if(piece[j].second=='q'){//queen
 				for(int k=0;k<l;k++)
-					if(location[k].first==piece[j].first.first||location[k].second==piece[j].first.second||(possible('b',location[k].first,location[k].second,piece[j].first.first,piece[j].first.second)&&(abs(location[k].first-piece[j].first.first)==abs(location[k].second-piece[j].first.second))))jarak[j][k]=1;
+					if(location[k].first==piece[j].first.first && location[k].second==piece[j].first.second)jarak[j][k]=0;
+					else if(location[k].first==piece[j].first.first||location[k].second==piece[j].first.second||(possible('b',location[k].first,location[k].second,piece[j].first.first,piece[j].first.second)&&(abs(location[k].first-piece[j].first.first)==abs(location[k].second-piece[j].first.second))))jarak[j][k]=1;
 					//bishop+rook
 					else jarak[j][k]=2;
 			}
@@ -119,7 +120,8 @@ int main(){
 			if(piece[j].second=='b'){//bishop
 				for(int k=0;k<l;k++)
 					if(possible('B',location[k].first,location[k].second,piece[j].first.first,piece[j].first.second))
-						if((abs(location[k].first-piece[j].first.first)==abs(location[k].second-piece[j].first.second)))jarak[j][k]=1;
+						if((location[k].first==piece[j].first.first and location[k].second==piece[j].first.second))jarak[j][k]=0;
+						else if((abs(location[k].first-piece[j].first.first)==abs(location[k].second-piece[j].first.second)))jarak[j][k]=1;
 						else jarak[j][k]=2;
 					else jarak[j][k]=1000000;
 			}
