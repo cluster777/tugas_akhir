@@ -1,7 +1,57 @@
-for each vertex do :
-	priority queue each path(weight smallest first) 
-	while pq ! empty
-		dequeue 1 path 
-		if found augmenting path break
-		queue each path in dequeued path
-	augment
+detailed version:
+def NIL
+def RIGHT
+def LEFT
+
+pq_heap{
+	int name;//the number of the vertex
+	int position;//left or right
+	int dist;//one that must be sorted
+	int before;//number of vertex that connected in this queue
+}
+
+int left[M],//left side matched with (number) of the right side NIL is not matched
+	right[N]//right side matched with (number) of the left side NIL is not matched
+;
+
+
+dijkstra():
+	pq,stack
+	for each left vertex and left[m]==NIL:
+		push left to pq dist=0 position==LEFT;
+	while pq !empty
+		pq_heap tmp= deque(pq)
+		if matched continue;
+		stack push tmp
+		add the vertex into matching //tambah ke set
+		if position==right and right[name]==NIL: //right unmatched vertex
+			int found=tmp.name,before=tmp.before,now=tmp.name
+			while(stack !empty):
+				//found the backward link
+				tmp=destack()
+				if(before=tmp.name)
+					//switch
+					left[tmp.name]=now
+					right[now]=tmp.name
+					now=tmp.name
+					before=tmp.before
+				//found loose end 
+					if(left[tmp.name]==NIL)
+						left[tmp.name]=found
+						break;
+					
+					return
+			return true; //augment do dfs to augment the path
+		else:
+			//push all forward link or backward link
+			if position==left: //from the left side
+				for each link from adj[name]:
+					if matched continue;
+					push all forward link into heap dist+=adj[left][n] position=RIGHT before=name
+			else: //from the right:
+				if(matched) continue;
+				push backward link dist-=adj[right[name]][name] position=LEFT before=name
+	return false //out of path
+
+dfs():
+	
